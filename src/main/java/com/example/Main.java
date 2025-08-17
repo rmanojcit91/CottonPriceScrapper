@@ -9,7 +9,14 @@ public class Main {
 
     public static void main(String[] args) {
         // Initialize components
-        PdfScraper scraper = new PdfScraper();
+        PdfScraper scraper;
+        try {
+            scraper = new PdfScraper("models/en-sent.bin", "models/en-token.bin", "models/en-ner-money.bin");
+        } catch (IOException e) {
+            System.err.println("Error initializing NLP models: " + e.getMessage());
+            e.printStackTrace();
+            return;
+        }
         CsvWriter csvWriter = new CsvWriter();
         ChartGenerator chartGenerator = new ChartGenerator();
 

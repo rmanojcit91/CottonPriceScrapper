@@ -1,0 +1,55 @@
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< com.example:cotton-price-scraper >------------------
+[INFO] Building cotton-price-scraper 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- exec:3.1.0:java (default-cli) @ cotton-price-scraper ---
+Processing file: tecoya trend 18 July 2025.pdf
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPS-BoldMT'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPSMT'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPS-BoldItalicMT'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'Calibri'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'Arial-Black'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPS-ItalicMT'
+Processing file: tecoya trend 21 July 2025 (2).pdf
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPS-BoldMT'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPSMT'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPS-BoldItalicMT'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'Calibri'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'Arial-Black'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPS-ItalicMT'
+Processing file: tecoya trend 17 July 2025.pdf
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPS-BoldMT'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPSMT'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPS-BoldItalicMT'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'Calibri'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'Arial-Black'
+Aug 16, 2025 1:32:39 AM org.apache.pdfbox.pdmodel.font.PDTrueTypeFont <init>
+WARNING: Using fallback font 'LiberationSans' for 'TimesNewRomanPS-ItalicMT'
+Data successfully written to cotton_prices.csv
+Chart successfully generated as price_trend_chart.png
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.936 s
+[INFO] Finished at: 2025-08-16T01:32:40Z
+[INFO] ------------------------------------------------------------------------
